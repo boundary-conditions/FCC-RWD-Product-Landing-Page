@@ -1,0 +1,40 @@
+#header {
+    
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1000px;
+    border-style: solid;
+    border-color: #C1880F;
+    background-color: #C1880F;
+}
+
+#nav-bar {
+    font-family: 'Bungee Inline';
+    
+}
+
+#header-image {
+    float: left;
+    border-radius: 50%;
+}
+
+#main {
+    position: absolute;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+#heading {
+    position: relative;
+    
+}
+
+#h1 {
+    font-family: 'Alfa Slab One';
+}
+
+#p {
+    font-family: 'Bebas Neue';
+}
