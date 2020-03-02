@@ -1,9 +1,12 @@
 #header {
     
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     margin: auto;
     width: 1000px;
+    height: 150px;
     border-style: solid;
     border-color: #C1880F;
     background-color: #C1880F;
