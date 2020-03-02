@@ -14,22 +14,52 @@
     
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #C1880F;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffffff;
+    background-color: darkgreen;
+}
+
 #header-image {
     float: left;
     border-radius: 50%;
 }
 
 #main {
-    position: absolute;
     margin: auto;
     width: 800px;
     text-align: center;
 }
 
 #heading {
-    position: relative;
+    margin: auto;
     
 }
+
+#vidlink {
+    display: grid;
+    grid-template-areas: "iframe a";
+}
+
+@media screen and (max-width: 1000px) {
+    #vidlink {
+        display: grid;
+        grid-template-areas: "iframe" "a";
+    } }
 
 #h1 {
     font-family: 'Alfa Slab One';
